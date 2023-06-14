@@ -1,7 +1,7 @@
 # CircleNet-Installation
 
 ##choose your cuda version
-Please refer this [Website]([https://www.google.com](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) to see which cuda version you can choose.
+Please refer this [Website](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) to see which cuda version you can choose.
 
 ## Operating System
 [Optional but recommended] Ubuntu-20.04 or Ubuntu-18.04.
