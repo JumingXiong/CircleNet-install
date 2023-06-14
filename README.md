@@ -4,7 +4,7 @@
 Please refer this [Website](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) to see which cuda version you can choose.
 
 ## Operating System
-[Optional but recommended] Ubuntu-20.04 or Ubuntu-18.04.
+[recommended] Ubuntu-20.04 or Ubuntu-18.04.
 
 If you are using the Windows System, the best way to use Linux system is [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 
