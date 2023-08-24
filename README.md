@@ -105,4 +105,18 @@ There are still some steps need to do
    please add ```export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libffi.so.7``` to your ```.bashrc``` file
 
 
+## Other Problems
+1. If you meet the ```fatal: unable to access 'https://github.com/hrlblab/CircleNet.git/': Could not resolve host: github.com``` problem to clone the github repo, please use
+   ~~~
+   echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+   ~~~
+   to change DNS.
+
+2. if it showed cant find ```mkl-service```, please use
+   ~~~
+   conda install -c intel mkl-service
+   ~~~
+   to install 
+
+
 
