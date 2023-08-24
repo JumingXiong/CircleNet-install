@@ -101,7 +101,7 @@ There are still some steps need to do
    pip install Pillow==6.2
    ~~~
 
-3. if you meet the problem about libffi.so.7
+3. if you meet the problem about ```libffi.so.7```
    please add ```export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libffi.so.7``` to your ```.bashrc``` file
 
 
