@@ -106,17 +106,16 @@ There are still some steps need to do
 
 
 ## Other Problems
-1. If you meet the ```fatal: unable to access 'https://github.com/hrlblab/CircleNet.git/': Could not resolve host: github.com``` problem to clone the github repo, please use
+1. If you meet the ```fatal: unable to access 'https://github.com/hrlblab/CircleNet.git/': Could not resolve host: github.com``` problem to clone the github repo, please use following command to change DNS.
    ~~~
    echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
    ~~~
-   to change DNS.
+   
 
-2. if it showed cant find ```mkl-service```, please use
+2. if it showed ```cant find mkl-service```, please use following command to install mkl-service
    ~~~
    conda install -c intel mkl-service
    ~~~
-   to install 
 
 
 
